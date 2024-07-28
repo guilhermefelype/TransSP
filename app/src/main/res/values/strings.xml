@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TransSP</string>
+    <string name="navigation_drawer_open">Abrir aba de navegação</string>
+    <string name="navigation_drawer_close">Fechar aba de navegação</string>
+    <string name="nav_header_title">TransSP</string>
+    <string name="nav_header_subtitle">suporte@aiko.digital</string>
+    <string name="nav_header_desc">Aba de navegação</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Busca</string>
+    <string name="menu_slideshow">Sobre</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

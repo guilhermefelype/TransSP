@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_aiko_logo_round"
+            android:layout_width="300dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="Logo da Aiko azul e branco"
+            android:src="@drawable/ic_aiko_border_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="SOBRE NÓS"
+            android:textColor="@color/aikolightblue"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_aiko_logo_round" />
+
+        <TextView
+            android:id="@+id/tv_help_companies"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Ajudamos empresas a serem mais eficientes e sustentáveis"
+            android:textAlignment="center"
+            android:textColor="@color/aikodarkblue"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about_us" />
+
+        <TextView
+            android:id="@+id/tv_aiko_history_started"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="A história da Aiko começou com a nossa vontade de impactar a indústria, levando transformação digital e inovação para mercados carentes de tecnologia, mas com um potencial gigante de crescer. Desde a sua fundação, a Aiko não apenas cresceu, mas nós nos tornamos referência em inovação nos mercados que atuamos e deixamos nossa marca por onde passamos."
+            android:textAlignment="center"
+            android:textColor="@color/lightgray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_help_companies" />
+
+        <TextView
+            android:id="@+id/tv_aiko_does"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="O que nós fazemos?"
+            android:textAlignment="center"
+            android:textColor="@color/aikodarkblue"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_aiko_history_started" />
+
+        <TextView
+            android:id="@+id/tv_aiko_dna"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="O nosso DNA é feito de inovação! E por isso trabalhamos para estar sempre um passo a frente no mercado, levando tecnologia de ponta para quem acredita em nós."
+            android:textColor="@color/lightgray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_aiko_does" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
